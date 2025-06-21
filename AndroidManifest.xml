@@ -16,4 +16,6 @@
     <!-- Declare aqui a tela de destino após a splash -->
     <activity android:name=".CadastroActivity" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
 </application>
