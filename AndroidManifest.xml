@@ -1,0 +1,19 @@
+<application
+    android:allowBackup="true"
+    android:label="Coma Bem"
+    android:icon="@drawable/logo_coma_bem"
+    android:roundIcon="@drawable/logo_coma_bem"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <activity android:name=".SplashActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <!-- Declare aqui a tela de destino após a splash -->
+    <activity android:name=".CadastroActivity" />
+
+</application>
